@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Add Reporting People"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            android:fontFamily="@font/bold"
+            />
+        <EditText
+            android:id="@+id/relation"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_text"
+            android:textSize="14dp"
+            android:padding="7dp"
+            android:fontFamily="@font/mulish"
+            android:textColor="#000"
+            android:hint="Relation e.g. Mother, Father etc."
+            />
+        <EditText
+            android:id="@+id/name"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_text"
+            android:textSize="14dp"
+            android:padding="7dp"
+            android:fontFamily="@font/mulish"
+            android:textColor="#000"
+            android:hint="Name e.g. John Doe"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_text"
+            android:textSize="14dp"
+            android:padding="7dp"
+            android:fontFamily="@font/mulish"
+            android:textColor="#000"
+            android:hint="Email Address - someone@example.com"
+            />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+
+            android:text="Confirm"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/mulish"
+
+            android:textSize="18dp"
+            android:background="@drawable/rounded_btn"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

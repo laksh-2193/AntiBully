@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/exercuse_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="Exercise heading"
+            android:textColor="#000"
+            android:fontFamily="@font/bold"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/image_exer"
+            />
+        <TextView
+            android:id="@+id/exercuse_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Exercise Description"
+            android:textColor="#000"
+            android:fontFamily="@font/mulish"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

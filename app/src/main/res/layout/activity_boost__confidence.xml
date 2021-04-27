@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Boost_Confidence">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slider"
+            app:iss_placeholder="@drawable/load"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_delay="0"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:text="Musics"
+            android:fontFamily="@font/bold"
+            android:textSize="20dp"
+            />
+
+        <HorizontalScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/mi_1"
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/load" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Upbeats"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="-5dp"
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="To make a cheerful mind."
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/music_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="@font/robot_med"
+
+
+                            android:text="Play"
+                            android:textAlignment="center"
+
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/mi_2"
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/load" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Tuning"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="-5dp"
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Gives a happy musical mood"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/music_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Play"
+                            android:textAlignment="center"
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/mi_3"
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/load" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Cheerful"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="-5dp"
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Cheerful happy music"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/music_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Play"
+                            android:textAlignment="center"
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/mi_4"
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/load" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Soft"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="-5dp"
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Soft calm music"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/music_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Play"
+                            android:textAlignment="center"
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/mi_5"
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/load" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Lyrical"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="-5dp"
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Try to form lyrics"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/music_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+
+
+                            android:fontFamily="@font/robot_med"
+                            android:text="Play"
+                            android:textAlignment="center"
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:text="Exercises"
+            android:fontFamily="@font/bold"
+            android:textSize="20dp"
+            />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/exer_1" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Meditation"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/exercise_txt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="@font/robot_med"
+
+
+                            android:text="View"
+                            android:textAlignment="center"
+
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/exer_2" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Acupressure"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/exercise_txt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="@font/robot_med"
+
+
+                            android:text="View"
+                            android:textAlignment="center"
+
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:elevation="20dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+
+                            android:layout_width="180dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/img3" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/robot_med"
+                            android:padding="10dp"
+                            android:text="Physical Activties"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/exercise_txt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+                            android:fontFamily="@font/robot_med"
+
+
+                            android:text="View"
+                            android:textAlignment="center"
+
+                            android:textColor="#3949AB"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+</ScrollView>

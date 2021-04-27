@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            app:lottie_rawRes="@raw/otp"
+            android:layout_marginTop="30dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+
+            />
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:hint="# # # # # # #"
+            android:padding="12dp"
+
+            android:textSize="20dp"
+            android:fontFamily="@font/mulish"
+            android:textStyle="bold"
+            android:inputType="number"
+
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:maxLength="6"
+            android:background="@drawable/rounded_text"
+            />
+        <Button
+            android:id="@+id/verify_btn"
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:padding="15dp"
+            android:textColor="#fff"
+
+            android:text="Verify OTP"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/mulish"
+
+            android:textSize="18dp"
+            android:background="@drawable/rounded_btn"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="50dp"
+            android:indeterminateTint="#FF9800"
+            android:visibility="invisible"
+            android:layout_height="50dp"
+
+            />
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sending OTP..."
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="30dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#807C7C"
+            android:layout_marginBottom="100dp"
+
+            android:fontFamily="@font/mulish"
+            />
+    </LinearLayout>
+
+</ScrollView>

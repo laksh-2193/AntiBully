@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015831647279",
+    "project_id": "antibully-b7705",
+    "storage_bucket": "antibully-b7705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015831647279:android:e3278a61544f8e9ea062da",
+        "android_client_info": {
+          "package_name": "com.example.antibully"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015831647279-f7c32v6nfa4i0rn4j16dq6f9ma3bd6pt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYR3thi9H4VdYCEWnLvfbJcYsIioR6n54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015831647279-f7c32v6nfa4i0rn4j16dq6f9ma3bd6pt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
